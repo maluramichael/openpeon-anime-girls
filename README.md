@@ -18,12 +18,18 @@ peon packs install-local ./anime-girls
 
 ## Events
 
-| Event | Label |
+| Event | Clips |
 |-------|-------|
-| `task.complete` | Yatta! |
-| `input.required` | yey |
-| `task.error` | Huh |
+| `session.start` | Itadakimasu, Onii-chan |
+| `task.acknowledge` | Arigatou, pop, nom |
+| `task.complete` | Yatta yatta, Ara-ara, Sugoi |
+| `task.error` | Baka, Yada, Ittai |
+| `input.required` | Ano ne, ano ne |
+| `resource.limit` | Yamette, explosion |
+| `session.end` | Hakushon (sneeze) |
+| `user.spam` | Hentai! |
 
 ## License
 
-Manifest: CC-BY-NC-4.0. Audio clips belong to their respective owners.
+Manifest: CC-BY-NC-4.0. Audio clips belong to their respective owners
+(unofficial, non-commercial fan pack).

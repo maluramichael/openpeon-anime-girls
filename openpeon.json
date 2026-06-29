@@ -2,7 +2,7 @@
   "cesp_version": "1.0",
   "name": "anime-girls",
   "display_name": "Anime Girls",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Cute anime girl voice clips as coding event notifications.",
   "author": {
     "name": "Michael Malura",
@@ -11,28 +11,52 @@
   "license": "CC-BY-NC-4.0",
   "language": "ja",
   "categories": {
-    "task.complete": {
+    "session.start": {
       "sounds": [
-        {
-          "file": "sounds/girl1.mp3",
-          "label": "Yatta!"
-        }
+        { "file": "sounds/itadakimasu.mp3", "label": "Itadakimasu!" },
+        { "file": "sounds/onii_chan.mp3", "label": "Onii-chan!" }
       ]
     },
-    "input.required": {
+    "task.acknowledge": {
       "sounds": [
-        {
-          "file": "sounds/girl2.mp3",
-          "label": "yey"
-        }
+        { "file": "sounds/arigatou.mp3", "label": "Arigatou" },
+        { "file": "sounds/pop.mp3", "label": "Pop" },
+        { "file": "sounds/nom.mp3", "label": "Nom" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/yatta.mp3", "label": "Yatta yatta!" },
+        { "file": "sounds/ara_ara.mp3", "label": "Ara-ara" },
+        { "file": "sounds/s_tier.mp3", "label": "Sugoi!" }
       ]
     },
     "task.error": {
       "sounds": [
-        {
-          "file": "sounds/girl3.mp3",
-          "label": "Huh"
-        }
+        { "file": "sounds/baka.mp3", "label": "Baka!" },
+        { "file": "sounds/yada.mp3", "label": "Yada" },
+        { "file": "sounds/ittai.mp3", "label": "Ittai!" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/ano_ne.mp3", "label": "Ano ne, ano ne" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/yamette.mp3", "label": "Yamette!" },
+        { "file": "sounds/explosion.mp3", "label": "Explosion" }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        { "file": "sounds/sneeze.mp3", "label": "Hakushon" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/hentai.mp3", "label": "Hentai!" }
       ]
     }
   }
