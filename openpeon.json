@@ -1,0 +1,39 @@
+{
+  "cesp_version": "1.0",
+  "name": "anime-girls",
+  "display_name": "Anime Girls",
+  "version": "1.0.0",
+  "description": "Cute anime girl voice clips as coding event notifications.",
+  "author": {
+    "name": "Michael Malura",
+    "github": "maluramichael"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "ja",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/girl1.mp3",
+          "label": "Yatta!"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/girl2.mp3",
+          "label": "yey"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/girl3.mp3",
+          "label": "Huh"
+        }
+      ]
+    }
+  }
+}
